@@ -9,4 +9,5 @@ def line (array)
       newarray.push("#{number}. #{name}")
     puts "The line is currently: #{newarray.join(" ")}"
   end
+  end
 end
