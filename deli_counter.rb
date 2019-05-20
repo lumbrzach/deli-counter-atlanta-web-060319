@@ -5,4 +5,6 @@ def line (katz_deli)
   else
     katz_deli.collect.each_with_index do |name, number|
       puts "The line is currenlty: #{number + 1}. #{name}"
+    end
+  end
 end
