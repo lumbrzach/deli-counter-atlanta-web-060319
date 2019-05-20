@@ -8,6 +8,7 @@ def line (array)
 
     array.each.with_index(1) do |name, number|
       newarray.push("#{number}. #{name}")
+      binding.pry
     end
 #binding.pry
     puts "The line is currently: #{array.join(" ")}"
