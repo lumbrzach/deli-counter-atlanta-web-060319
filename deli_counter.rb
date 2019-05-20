@@ -18,6 +18,6 @@ def take_a_number (array, name)
 end
 
 def now_serving (array)
-  puts "Now serving #{array[0]}."
+  puts "Currently serving #{array[0]}."
   array.pop
 end
