@@ -7,7 +7,7 @@ def line (array)
   else
     array.each.with_index(1) do |name, number|
       newarray.push("#{number}. #{name}")
+    end
     puts "The line is currently: #{newarray.join(" ")}"
-  end
-  end
+    end
 end
