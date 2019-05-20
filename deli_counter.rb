@@ -11,3 +11,8 @@ def line (array)
     puts "The line is currently: #{newarray.join(" ")}"
     end
 end
+
+def take_a_number (array, name)
+  array.push(name)
+  puts "Welcome, #{name}. You are number #{name[index+1]} in line."
+end
