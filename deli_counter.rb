@@ -18,6 +18,9 @@ def take_a_number (array, name)
 end
 
 def now_serving (array)
-  puts "Currently serving #{array[0]}."
-  array.pop
+  if array == 0
+    puts "There is nobody waiting to be served!"
+  else
+    puts "Currently serving #{array[0]}."
+    array.pop
 end
