@@ -6,7 +6,7 @@ def line (array)
     puts "The line is currently empty."
   else
 
-    array.each.with_index(0) do |name, number|
+    array.each.with_index(1) do |name, number|
       newarray.push("#{number}. #{name}")
     end
 binding.pry
